@@ -5,6 +5,7 @@ namespace App.Data
         List<TModel> GetAll();
         TModel GetById(int id);
         TModel Add(TModel model);
+        TModel RemoveByid(int id);
         int Commit();
     }
 }

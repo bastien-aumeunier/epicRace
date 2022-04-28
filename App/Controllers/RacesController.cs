@@ -114,18 +114,20 @@ namespace App.Controllers
         }
 
         // POST: Races/Delete/5
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
+            Console.WriteLine(id);
             try
             {
-                // TODO: Add delete logic here
+                _raceRepository.RemoveByid(id);
 
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
+                Console.WriteLine("ERROR");
                 return View();
             }
         }

@@ -1,11 +1,13 @@
 using App.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace App.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<Pilote, Role, int>
 {
     public DbSet<Race> Races { get; set; }
+
     public DbSet<RaceResult> RaceResults { get; set; }
     public DbSet<ResultItem> ResultItem { get; set; }
     

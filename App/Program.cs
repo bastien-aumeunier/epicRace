@@ -1,3 +1,4 @@
+using System.Net.NetworkInformation;
 using App.Data;
 using App.Middlewares;
 using App.Models;
@@ -22,6 +23,12 @@ builder.Services.AddDbContext<AppDbContext>(
         .EnableDetailedErrors()
 );
 
+builder.Services.AddIdentity<Pilote, Role>(options =>
+{
+    options.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<AppDbContext>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,6 +45,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+
+app.UseAuthentication();
 
 app.UseBasicMiddleware();
 
