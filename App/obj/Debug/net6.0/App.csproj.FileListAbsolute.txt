@@ -1308,3 +1308,6 @@ C:/Users/baume/Documents/Projet FrameWork Web/App/bin/Debug/net6.0/Microsoft.Ext
 /Users/user/developpement/C#/epicRace/App/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/user/developpement/C#/epicRace/App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
 /Users/user/developpement/C#/epicRace/App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/user/developpement/C#/epicRace/App/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/user/developpement/C#/epicRace/App/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/user/developpement/C#/epicRace/App/obj/Debug/net6.0/App.MvcApplicationPartsAssemblyInfo.cs
