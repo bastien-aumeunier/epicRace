@@ -17,7 +17,6 @@ namespace App.Controllers
         public ActionResult Index()
         {
             var races = _raceRepository.GetAll();
-
             var raceListViewModel = new RaceListViewModel(
                 races,
                 "Liste de courses"

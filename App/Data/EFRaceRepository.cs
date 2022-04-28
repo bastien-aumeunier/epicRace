@@ -22,7 +22,7 @@ namespace App.Data
 
         public List<Race> GetAll()
         {
-            return _dbContext.Races.ToList();
+            return _dbContext.Races.OrderBy(x => x.EventDate).ToList();
         }
 
         public Race GetById(int id)

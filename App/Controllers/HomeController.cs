@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using App.ViewModels;
+using App.Data;
 using App.Models;
 
 namespace App.Controllers;
@@ -7,15 +9,22 @@ namespace App.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IRepository<Race> _raceRepository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IRepository<Race> repository)
     {
         _logger = logger;
+        _raceRepository = repository;
     }
-
     public IActionResult Index()
     {
-        return View();
+        var race = _raceRepository.GetAll();
+            var IndexViewModel = new IndexViewModel(
+                race,
+                "Détails"
+            );
+
+            return View(IndexViewModel);
     }
 
     public IActionResult Privacy()

@@ -18,12 +18,27 @@
         <br>
         <strong>Age Requis: </strong>@Model.Race.Age
         <br>
-        <div class="w-100 h-100"></div>
+        <div id="googleMap" style="width:80%;height:500px;"></div>
 
 
     </div>
 </div>
 
-<script async
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(parseFloat(@Model.Race.Latitude),parseFloat(@Model.Race.Longitude)),
+  zoom:7,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+console.log(@Model.Race.Latitude)
+const marker = new google.maps.Marker({
+    position: {lat: parseFloat(@Model.Race.Latitude), lng: parseFloat(@Model.Race.Longitude)},
+    map: map,
+  });
+
+}
 </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqFknns9GQiHOdiEdHDPkbldY-hWVjm5U&callback=myMap"></script>
