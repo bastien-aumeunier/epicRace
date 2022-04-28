@@ -1,7 +1,7 @@
-using System.Net.NetworkInformation;
 using App.Data;
 using App.Middlewares;
 using App.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +23,7 @@ builder.Services.AddDbContext<AppDbContext>(
         .EnableDetailedErrors()
 );
 
-builder.Services.AddIdentity<Pilote, Role>(options =>
+builder.Services.AddDefaultIdentity<Pilote>(options =>
 {
     options.User.RequireUniqueEmail = true;
 }).AddEntityFrameworkStores<AppDbContext>();
