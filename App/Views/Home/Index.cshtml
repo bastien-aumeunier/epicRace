@@ -1,12 +1,9 @@
 ﻿@model App.ViewModels.IndexViewModel
-
 @{
     ViewData["Title"] = "Home Page";
 }
 @if (Model.RaceList.Count() > 0)
 {
-
-
     <div class="text-center">
         <h4 class="mb-3">Prochaine Course:  <span class="w-40" id="compte"></span></h4>
         @foreach (var item in Model.RaceList) {

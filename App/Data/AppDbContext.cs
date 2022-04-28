@@ -17,5 +17,6 @@ public class AppDbContext : IdentityDbContext<Pilote, Role, int>
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
     }
 }

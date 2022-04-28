@@ -28,7 +28,6 @@ builder.Services.AddIdentity<Pilote, Role>(options =>
     options.User.RequireUniqueEmail = true;
 }).AddEntityFrameworkStores<AppDbContext>();
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -41,16 +40,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
-
 app.UseAuthentication();
-
 app.UseBasicMiddleware();
-
 app.Use(async (context, next) => {
     Console.WriteLine("...MW2 ===>");
     await next();
