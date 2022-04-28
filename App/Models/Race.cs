@@ -1,4 +1,4 @@
-using System.Security;
+
 
 namespace App.Models
 {
@@ -6,7 +6,6 @@ namespace App.Models
     {
         public int Id { get; set; }
 
-        public int PiloteId {get; set;}
         public string? Name { get; set; }
         public DateTime EventDate { get; set; }
 
