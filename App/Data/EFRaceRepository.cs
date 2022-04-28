@@ -29,5 +29,11 @@ namespace App.Data
         {
             return _dbContext.Races.Single(r => r.Id == id);
         }
+        public Race RemoveByid(int id)
+        {
+            Race race = _dbContext.Races.Single(r => r.Id == id);
+            _dbContext.Races.Remove(race);
+            return race;
+        }
     }
 }
