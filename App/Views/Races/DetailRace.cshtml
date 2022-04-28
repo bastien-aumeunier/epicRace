@@ -1,0 +1,29 @@
+@model App.ViewModels.DetailRaceViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@Model.HeaderTitle</h2>
+
+<div>
+    <div>
+        <strong>Nom: </strong>@Model.Race.Name
+        <br>
+        <strong>Date: </strong>@Model.Race.EventDate.ToShortDateString()
+        <br>
+        <strong>Heure: </strong>@Model.Race.EventDate.ToShortTimeString()
+        <br>
+        <strong>Nombre Participant: </strong>@Model.Race.Places
+        <br>
+        <strong>Age Requis: </strong>@Model.Race.Age
+        <br>
+        <div class="w-100 h-100"></div>
+
+
+    </div>
+</div>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>

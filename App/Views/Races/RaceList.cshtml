@@ -1,0 +1,65 @@
+@model App.ViewModels.RaceListViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>@Model.HeaderTitle</h1>
+
+<p>
+    <a asp-action="Create">Create a Race</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Race Name
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Heure
+            </th>
+            <th>
+                Place
+            </th>
+            <th>
+                Age Minimum
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.RaceList) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @item.EventDate.ToShortDateString()
+            </td>
+            <td>
+                @item.EventDate.ToShortTimeString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Places)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">See Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
