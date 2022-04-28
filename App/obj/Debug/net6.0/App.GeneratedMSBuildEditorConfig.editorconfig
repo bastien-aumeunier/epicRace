@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = App
 build_property.RootNamespace = App
-build_property.ProjectDir = C:\Users\baume\Documents\Projet FrameWork Web\App\
+build_property.ProjectDir = /Users/user/developpement/C#/epicRace/App/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\baume\Documents\Projet FrameWork Web\App
+build_property.MSBuildProjectDirectory = /Users/user/developpement/C#/epicRace/App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/UserDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxVc2VyRGV0YWlscy5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Auth/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Vc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/user/developpement/C\#/epicRace/App/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Races/CreateRace.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcQ3JlYXRlUmFjZS5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Races/CreateRace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFjZXMvQ3JlYXRlUmFjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Races/DetailRace.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcRGV0YWlsUmFjZS5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/Races/DetailRace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFjZXMvRGV0YWlsUmFjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Races/RaceList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcUmFjZUxpc3QuY3NodG1s
+[/Users/user/developpement/C\#/epicRace/App/Views/Races/RaceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFjZXMvUmFjZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/user/developpement/C\#/epicRace/App/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/user/developpement/C\#/epicRace/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/user/developpement/C\#/epicRace/App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/user/developpement/C\#/epicRace/App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-78367sr58w
+[/Users/user/developpement/C\#/epicRace/App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f20wllild7
