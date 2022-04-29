@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Account\\Profil.cshtml",
+      "TargetPath": "Views\\Account\\Profil.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Races\\RaceList.cshtml",
       "TargetPath": "Views\\Races\\RaceList.cshtml",
       "FileKind": "mvc"
@@ -16310,6 +16315,11 @@
     {
       "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16328,13 +16338,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Auth\\Register.cshtml",
-      "TargetPath": "Views\\Auth\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Auth\\Login.cshtml",
-      "TargetPath": "Views\\Auth\\Login.cshtml",
+      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16348,13 +16353,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Races\\CreateRace.cshtml",
-      "TargetPath": "Views\\Races\\CreateRace.cshtml",
+      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Auth\\UserDetails.cshtml",
-      "TargetPath": "Views\\Auth\\UserDetails.cshtml",
+      "FilePath": "c:\\Users\\baume\\Documents\\Projet FrameWork Web\\App\\Views\\Races\\CreateRace.cshtml",
+      "TargetPath": "Views\\Races\\CreateRace.cshtml",
       "FileKind": "mvc"
     },
     {

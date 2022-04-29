@@ -10,26 +10,12 @@ namespace App.Controllers
         private readonly UserManager<Pilote> _userManager;
         private readonly SignInManager<Pilote> _signInManager;
 
-        private readonly IRepository<Pilote> _piloteRepository;
-
-        public AccountController(UserManager<Pilote> userManager, SignInManager<Pilote> signInManage, IRepository<Pilote> piloteRepository)
+        public AccountController(UserManager<Pilote> userManager, SignInManager<Pilote> signInManage)
         {
             _userManager = userManager;
             _signInManager = signInManage;
-            _piloteRepository = piloteRepository;
         }
 
-        [HttpGet]
-        public ActionResult ViewUsers()
-        {
-            var pilotes = _piloteRepository.GetAll();
-            //var raceListViewModel = new RaceListViewModel(
-            //    pilotes,
-              //  "Liste de courses"
-            //);
-
-            return View("UsersList");
-        }
 
         [HttpGet]
         public IActionResult Index()

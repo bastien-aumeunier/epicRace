@@ -15,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\baume\Documents\Projet FrameWork Web\App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Account/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Auth/UserDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxVc2VyRGV0YWlscy5jc2h0bWw=
+[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Home/Index.cshtml]
@@ -49,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/baume/Documents/Projet FrameWork Web/App/Views/Shared/_ValidationScriptsPartial.cshtml]

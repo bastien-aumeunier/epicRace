@@ -26,9 +26,9 @@ namespace App.Data
             return _dbContext.PiloteCars.ToList();
         }
 
-        public PiloteCar GetByPilotId(int id)
+        public PiloteCar GetById(int id)
         {
-            return _dbContext.PiloteCars.Single(r => r.Id == id);
+            return _dbContext.PiloteCars.Single(r => r.PiloteId == id);
         }
 
         public PiloteCar RemoveByid(int id)
