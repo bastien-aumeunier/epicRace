@@ -19,6 +19,6 @@ services:
     depends_on: 
       - db
     ports:
-      - '7070:80'
+      - '3030:80'
 
   
