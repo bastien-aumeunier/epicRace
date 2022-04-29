@@ -13,6 +13,8 @@ public class AppDbContext : IdentityDbContext<Pilote>
 
     public DbSet<CarsType> CarsTypes {get; set;}
 
+    public DbSet<PiloteCar> PiloteCars {get; set;}
+
     public DbSet<Car> Cars {get; set;}
     public DbSet<RaceResult> RaceResults { get; set; }
     public DbSet<ResultItem> ResultItem { get; set; }

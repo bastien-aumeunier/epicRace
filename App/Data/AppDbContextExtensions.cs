@@ -16,6 +16,7 @@ public static class AppDbContextExtensions
                 Id = 1,
                 Marque = "Ferrari",
                 Model = "F40",
+                CarsType = 1,
                 CreationDate = new DateTime(1987, 01, 01),
                 Power =7
             },
@@ -24,6 +25,7 @@ public static class AppDbContextExtensions
                 Id = 2,
                 Marque = "Lamborghini",
                 Model = "Huracan",
+                CarsType = 1,
                 CreationDate = new DateTime(2014, 01, 01),
                 Power =7
 
@@ -33,6 +35,7 @@ public static class AppDbContextExtensions
                 Id = 3,
                 Marque = "Ford",
                 Model = "Mustang 67’",
+                CarsType = 2,
                 CreationDate = new DateTime(1967, 01, 01),
                 Power =3
             },
@@ -40,6 +43,7 @@ public static class AppDbContextExtensions
             {
                 Id = 4,
                 Marque = "Dodge",
+                CarsType = 5,
                 CreationDate = new DateTime(2021, 01, 01),
                 Power =5
 
@@ -49,6 +53,7 @@ public static class AppDbContextExtensions
                 Id = 5,
                 Marque = "Pagani",
                 Model = "Huayra R",
+                CarsType = 4,
                 CreationDate = new DateTime(2018, 01, 01),
                 Power =9
 
@@ -58,6 +63,7 @@ public static class AppDbContextExtensions
                 Id = 6,
                 Marque = "Bugatti",
                 Model = "Chiron",
+                CarsType = 4,
                 CreationDate = new DateTime(2019, 01, 01),
                 Power =10
 
@@ -67,6 +73,7 @@ public static class AppDbContextExtensions
                 Id = 7,
                 Marque = "Toyota",
                 Model = "Supra Yakuza Edition",
+                CarsType = 8,
                 CreationDate = new DateTime(1995, 01, 01),
                 Power =7
 
@@ -76,6 +83,7 @@ public static class AppDbContextExtensions
                 Id = 8,
                 Marque = "Honda",
                 Model = "S2000 Racing",
+                CarsType = 6,
                 CreationDate = new DateTime(2009, 01, 01),
                 Power =6
 
@@ -85,6 +93,7 @@ public static class AppDbContextExtensions
                 Id = 9,
                 Marque = "BMW",
                 Model = "E30",
+                CarsType = 6,
                 CreationDate = new DateTime(1991, 01, 01),
                 Power =6
 
@@ -93,6 +102,7 @@ public static class AppDbContextExtensions
             {
                 Id = 10,
                 Marque = "Porsche",
+                CarsType = 7,
                 Model = "911 GT3",
                 CreationDate = new DateTime(2007, 01, 01),
                 Power =7
