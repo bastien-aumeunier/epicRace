@@ -15,7 +15,8 @@
                 <div>Date: @item.EventDate.ToShortDateString()</div>
                 <div>Heure: @item.EventDate.ToShortTimeString()</div>
                 <div>Place: @Html.DisplayFor(modelItem => item.Places)</div>
-                <div>Test</div>
+                <div>
+                <a asp-controller="Races" asp-action="Details" asp-route-id="@item.Id">See Details</a></div>
             </div>
         }
     </div>
