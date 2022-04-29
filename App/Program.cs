@@ -23,10 +23,14 @@ builder.Services.AddDbContext<AppDbContext>(
         .EnableDetailedErrors()
 );
 
-builder.Services.AddDefaultIdentity<Pilote>(options =>
+builder.Services.AddIdentity<Pilote, IdentityRole>(options =>
 {
-    options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<AppDbContext>();
+}).AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders()
+    .AddDefaultUI();
+
+builder.Services.AddRazorPages();
+
 
 
 var app = builder.Build();
@@ -45,8 +49,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-
 app.UseAuthentication();
 
 app.UseBasicMiddleware();

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using App.Models;
+using System.Security;
 
 namespace App.Models
 {
@@ -8,6 +9,8 @@ namespace App.Models
         public string? Name { get; set; }
 
         public string? FirstName { get; set; }
+
+        public string? LastName { get; set; }
 
         public DateOnly Naissance { get; set; }
 
